@@ -4,7 +4,7 @@ import axios from 'axios';
 export default class AddProject extends Component {
 
   state = {
-    title: 'title to edit',
+    title: '',
     description: '',
     // error: null
   }
